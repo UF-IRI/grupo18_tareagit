@@ -1,12 +1,7 @@
 #include <cstdlib>
 #include <iostream>
+#include "funcion1.h"
 
-#include "example.h"
-
-int main(int argc, char** argv)
-{
-    foobar::Example example{};
-    std::cout << "Example.getValue() => " << example.getValue() << std::endl;
-
-    return EXIT_SUCCESS;
+int main(){
+	return 0;
 }

@@ -1,5 +1,7 @@
 #include "funcion1.h"
-float calcular_promedio(float* puntero[], int N)
+
+
+float calcular_promedio(float *puntero, int N)
 {
     float acumulador = 0;
     float promedio;
@@ -19,10 +21,12 @@ float calcular_promedio(float* puntero[], int N)
         return -1;
     }
 }
-int numerosPares(int* puntero[], int N)
+
+
+int numerosPares(float* puntero[], int N)
 {
     int contador = 0;
-    int* auxiliar;
+    float* auxiliar;
     auxiliar = new int[N];
     for (int i = 0; i < N; i++)
     {
